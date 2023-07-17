@@ -1,5 +1,5 @@
-app = "x-alebrije-templar"
-primary_region = "bos"
+app = "templar"
+primary_region = "dfw"
 kill_signal = "SIGINT"
 kill_timeout = "5s"
 
