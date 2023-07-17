@@ -6,6 +6,7 @@ on:
       - "Auto Update"
     types:
       - "completed"
+      - "failed"
   workflow_dispatch:
 
 jobs:
