@@ -20,7 +20,7 @@ fi
 
 until /app/tailscale up \
     --authkey=${TAILSCALE_AUTH_KEY} \
-    --hostname=vpn-${FLY_REGION} \
+    --hostname=templar-vpn-${FLY_REGION} \
     --ssh \
     --advertise-exit-node
 do
